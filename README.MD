@@ -9,7 +9,7 @@
 
 ## Scripts
 
-```json
+```ts
 "scripts": {
     // start server in dev and watch mode
     "dev:watch": "nodemon --exec",
