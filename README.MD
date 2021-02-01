@@ -1,6 +1,6 @@
 # Express js with Next js - Typescript boilerplate for future project
 
-## Futures
+## Features
 
 - **Nodemon**
 - **Eslint**
