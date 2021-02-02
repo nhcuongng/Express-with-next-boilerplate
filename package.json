@@ -1,5 +1,5 @@
 {
-  "name": "express-server-next-js-boilerplate",
+  "name": "express-server-next-js-with-graphql-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",

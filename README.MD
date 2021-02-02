@@ -7,6 +7,9 @@
 - **Editor config**
 - **Path alias**
 - **Type safe with env** ([dot env safe](https://www.npmjs.com/package/dotenv-safe) and [gen env type](https://github.com/benawad/gen-env-types))
+- TypeORM
+- Postgreql
+- Apollo server/client
 
 ## Scripts
 
