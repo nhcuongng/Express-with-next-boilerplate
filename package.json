@@ -17,12 +17,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^2.19.2",
     "dotenv-safe": "^8.2.0",
     "express": "^4.17.1",
     "link-module-alias": "^1.2.0",
     "next": "^10.0.6",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
   },
   "devDependencies": {
     "@types/eslint": "^7.2.6",
