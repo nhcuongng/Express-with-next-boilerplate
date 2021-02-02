@@ -25,7 +25,10 @@
     "paths": {
       "~@Components/*": [
         "src/components/*"
-      ]
+      ],
+      "~@GraphqlHelper": [
+        "src/generated/graphql.tsx"
+      ],
     },
     "module": "esnext"
   },

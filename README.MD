@@ -7,9 +7,9 @@
 - **Editor config**
 - **Path alias**
 - **Type safe with env** ([dot env safe](https://www.npmjs.com/package/dotenv-safe) and [gen env type](https://github.com/benawad/gen-env-types))
-- TypeORM
-- Postgreql
-- Apollo server/client
+- **TypeORM**
+- **Postgreql**
+- **Apollo server/client**
 
 ## Scripts
 
@@ -30,6 +30,8 @@
     // build next js client in prod mode
     "build:next": "next build",
     // build both server and client
-    "build": "npm run build:next && npm run build:server"
+    "build": "npm run build:next && npm run build:server",
+    // gen graphql types and helper based on graphql schema, read codegen.yml for information
+    "gen": "graphql-codegen --config codegen.yml"
 },
 ```
