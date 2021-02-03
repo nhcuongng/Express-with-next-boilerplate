@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { Hello } from '~@Components/hello';
+import withApollo from '../lib/apollo';
 
 const IndexPage: React.FC = () => (
   <>
@@ -12,4 +13,4 @@ const IndexPage: React.FC = () => (
   </>
 );
 
-export default IndexPage;
+export default withApollo({ ssr: true })(IndexPage);
